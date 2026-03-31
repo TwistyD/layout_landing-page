@@ -79,9 +79,13 @@
     width: 100vw;
     height: 200px;
     margin-top: 96px;
-    margin-left: calc(-50vw + 50%);
     display: block;
     object-fit: cover;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 
     @include on-tablet {
       height: 400px;
@@ -92,6 +96,14 @@
     }
   }
 }
+
+// .image__after {
+//   width: 100vw;
+//   // margin-left: calc(50% - 50vw);
+//   position: relative;
+//   left: 50%;
+//   margin-left: -50vw;
+// }
 
 .browse-card {
   &__images {

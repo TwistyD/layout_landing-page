@@ -7,16 +7,9 @@
   line-height: 140%;
   scroll-behavior: smooth;
 
-  .page:has(.page__menu:target) {
-    overflow: hidden; /* not to scroll the page */
-  }
-
-  &:has(.page__menu:target) {
-    overflow: hidden;
-  }
-
   &__body {
     min-width: 320px;
+    overflow-x: hidden;
   }
 
   &__menu {
@@ -34,4 +27,8 @@
       pointer-events: all;
     }
   }
+}
+
+.page:has(.page__menu:target) {
+  overflow: hidden;
 }

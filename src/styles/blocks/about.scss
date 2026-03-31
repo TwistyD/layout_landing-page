@@ -4,8 +4,8 @@
 
 .about {
   // position: sticky; /*Doesn`t make sense in our situation*/
-  bottom: 0;
-  z-index: -1;
+  // bottom: 0;
+  // z-index: -1;
 
   @include on-tablet {
     display: grid;

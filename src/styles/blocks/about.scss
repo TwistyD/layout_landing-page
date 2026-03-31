@@ -3,6 +3,10 @@
 @use '../utils/normalize.scss' as *;
 
 .about {
+  // position: sticky; /*Doesn`t make sense in our situation*/
+  bottom: 0;
+  z-index: -1;
+
   @include on-tablet {
     display: grid;
     grid-template-columns: 287px 1fr;

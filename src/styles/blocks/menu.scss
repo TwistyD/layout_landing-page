@@ -2,6 +2,7 @@
 @use '../utils/variables.scss' as *;
 
 .menu {
+  overflow: auto;
   background-color: $background-color;
   font-weight: 700;
 
@@ -12,6 +13,9 @@
   }
 
   &__top {
+    position: sticky; /* to keep cross always visible */
+    top: 0;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;

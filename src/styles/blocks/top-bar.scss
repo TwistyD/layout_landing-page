@@ -7,12 +7,12 @@
   align-items: center;
   padding-block: 20px;
 
-  @include onTablet {
+  @include on-tablet {
     padding-block: 36px;
     justify-content: space-between;
     align-items: center;
 
-    @include onDesktop {
+    @include on-desktop {
       justify-content: space-between;
       align-items: center;
     }
@@ -28,7 +28,7 @@
       transform: scale(1.1);
     }
 
-    @include onTablet {
+    @include on-tablet {
       width: 172px;
       height: 24px;
     }

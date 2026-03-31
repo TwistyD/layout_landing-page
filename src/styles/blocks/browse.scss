@@ -11,19 +11,19 @@
   }
 
   &__title {
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
     padding-bottom: 48px;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 40px;
       line-height: 40px;
     }
 
-    @include onDesktop {
-      font-family: "Space Grotesk", sans-serif;
+    @include on-desktop {
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 48px;
       line-height: 48px;
     }
@@ -46,7 +46,7 @@
       color 0.3s ease;
     border: 2px solid transparent;
     margin-top: 20px;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0;
@@ -62,13 +62,13 @@
       background-color: $active-state-color;
     }
 
-    @include onTablet {
+    @include on-tablet {
       width: 600px;
       height: 56px;
       margin-top: 22px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       width: 342px;
       margin: 0;
       margin-top: 26px;
@@ -83,11 +83,11 @@
     display: block;
     object-fit: cover;
 
-    @include onTablet {
+    @include on-tablet {
       height: 400px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       height: 460px;
     }
   }
@@ -102,11 +102,11 @@
     margin: 0 auto;
     transition: transform 0.3s ease;
 
-    @include onTablet {
+    @include on-tablet {
       gap: 24px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       gap: 30px;
     }
   }
@@ -125,7 +125,7 @@
     }
   }
 
-  @include onTablet {
+  @include on-tablet {
     .browse__item--accessories &__picture-1 {
       width: 392px;
       height: 184px;
@@ -154,7 +154,7 @@
     }
   }
 
-  @include onDesktop {
+  @include on-desktop {
     .browse__item--all &__picture-1 {
       width: 672px;
       height: 324px;

@@ -3,14 +3,14 @@
 @use '../utils/normalize.scss' as *;
 
 .about {
-  @include onTablet {
+  @include on-tablet {
     display: grid;
     grid-template-columns: 287px 1fr;
     gap: 24px;
     align-items: start;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     grid-template-columns: 498px 1fr;
     gap: 24px;
   }
@@ -19,18 +19,18 @@
     font-size: 32px;
     font-weight: 700;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 40px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       font-size: 48px;
     }
   }
 
   &__text {
     width: 284px;
-    font-family: "Space Mono", monospace;
+    font-family: 'Space Mono', monospace;
     font-weight: 400;
     font-style: Regular;
     font-size: 16px;
@@ -40,12 +40,12 @@
     flex-direction: column;
     gap: 16px;
 
-    @include onTablet {
+    @include on-tablet {
       padding-top: 0;
       width: 288px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       padding-top: 0;
       width: 498px;
     }

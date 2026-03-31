@@ -6,7 +6,6 @@
   font-weight: 700;
 
   &__content {
-    // height: 100vh;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -20,7 +19,7 @@
 
     background-color: $background-color;
 
-    @include onTablet {
+    @include on-tablet {
       padding-block: 36px;
     }
   }

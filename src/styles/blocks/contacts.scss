@@ -8,11 +8,11 @@
     font-weight: $font-weight-bold;
     margin-bottom: 48px;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 40px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       font-size: 48px;
     }
   }
@@ -23,22 +23,22 @@
     flex-direction: column;
     gap: 48px;
 
-    @include onTablet {
+    @include on-tablet {
       align-items: flex-start;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       flex-direction: row;
       gap: 118px;
     }
   }
 
   &__form {
-    @include onTablet {
+    @include on-tablet {
       width: 600px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       width: 498px;
     }
   }
@@ -49,11 +49,11 @@
     gap: 32px;
     padding-bottom: 120px;
 
-    @include onTablet {
+    @include on-tablet {
       width: 288px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       width: 498px;
     }
   }
@@ -68,7 +68,7 @@
     font-size: 14px;
     font-weight: $font-weight-light;
     color: $info-label-color;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     line-height: 140%;
     letter-spacing: 0;
   }
@@ -76,7 +76,7 @@
   &__info-value {
     font-size: 16px;
     color: $main-text-color;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
     line-height: 140%;
   }
@@ -136,11 +136,11 @@
       color 0.3s ease,
       border-color 0.3s ease;
 
-    @include onTablet {
+    @include on-tablet {
       width: 600px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       width: 411px;
       margin-bottom: 120px;
     }

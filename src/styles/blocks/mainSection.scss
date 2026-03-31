@@ -10,11 +10,11 @@
   &__section {
     margin-top: 60px;
 
-    @include onTablet {
+    @include on-tablet {
       margin-top: 80px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-top: 100px;
     }
   }
